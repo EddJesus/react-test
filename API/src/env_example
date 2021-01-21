@@ -1,0 +1,7 @@
+CLIENT_ID = {your_client_id}
+CLIENT_SECRET = {your_client_secret}
+REDIRECT_URI = {your_redirect_uri}
+HOST = {your_host}
+PORT = {your_port}
+
+    
