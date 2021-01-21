@@ -4,4 +4,5 @@ REDIRECT_URI = {your_redirect_uri}
 HOST = {your_host}
 PORT = {your_port}
 
+curl -H "Authorization: Basic YWMwMzgwZjRkMzk5NDk5MWIwZjk4NTkzZmU4NzZmYzg6OWRiM2QzODU1YTk1NDA1ZDhhNGUzZmQ0ZDJjNGQ0MDg=" -d grant_type=authorization_code -d code=AQD2NcY7LUcBl_n2vl_8FSvhj1H6U38-lyNdQm7fwOXmlihVf6j7EThcSA7R-9MMLDwMsyYPY4N-P9eR7NvBAjyY-P7-iI4_3Q2E37uaKjH6YfDNf8XbqQuvdEJ7UE6XYPEhQ9Ap7c2Jduiv9MXX0DHnOdpma7XWWhQ -d redirect_uri=http://localhost:3000/ https://accounts.spotify.com/api/token
     

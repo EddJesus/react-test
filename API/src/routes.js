@@ -5,7 +5,7 @@ const AuthController = require ("./controllers/getAuth");
 const PlaylistsController = require ("./controllers/getPlaylists");
  
 routes.get('/', (req, res) =>{
-    res.json("HELLO TESTE!");
+    res.json("HELLO TESTE!!");
 })
 
 routes.get('/getAuth', AuthController.getAuth);
