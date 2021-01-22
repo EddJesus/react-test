@@ -7,7 +7,7 @@ const Routes = () => {
 	return (
 		<BrowserRouter>
 			<Route component={Main} path="/" exact />
-            <Route component={Main} path="/loggedin" exact />
+            <Route component={Main} path="/callback" exact />
 		</BrowserRouter>
 	)
 }

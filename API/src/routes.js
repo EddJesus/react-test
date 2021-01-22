@@ -1,14 +1,14 @@
 const express = require("express");
 const routes = express.Router();
 
-const AuthController = require ("./controllers/getAuth");
+const AuthorizationCodeController = require ("./controllers/getAuthorizationCode");
 const PlaylistsController = require ("./controllers/getPlaylists");
  
 routes.get('/', (req, res) =>{
     res.json("HELLO TESTE!!");
 })
 
-routes.get('/getAuth', AuthController.getAuth);
+routes.get('/getAuth', AuthorizationCodeController.getAuthorizationCode);
 routes.post('/getPlaylists', PlaylistsController.getPlaylists);
 
 module.exports = routes;

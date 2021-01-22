@@ -1,12 +1,13 @@
 const querystring = require("querystring");
 
 module.exports = {
-    async getAuth(req, res) {
+    async getAuthorizationCode(req, res) {
 
         const data = res.redirect('https://accounts.spotify.com/authorize?' +
             querystring.stringify({
                 client_id: process.env.CLIENT_ID,
-                client
+                response_type: 'code',
+                redirect_uri: process.env.REDIRECT_URI,
             }))
 
         const code = req.params
